@@ -1,4 +1,4 @@
-// Video Embed - Updated February 12, 2024
+// Video Embed - Updated February 21, 2024
 function noop() { }
 const identity = x => x;
 function assign(tar, src) {
