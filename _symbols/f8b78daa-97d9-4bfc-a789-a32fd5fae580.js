@@ -1,4 +1,4 @@
-// Contact Form - Updated February 21, 2024
+// Contact Form - Updated February 23, 2024
 function noop() { }
 function assign(tar, src) {
     // @ts-ignore
@@ -3227,7 +3227,7 @@ function create_if_block(ctx) {
 			create_component(icon.$$.fragment);
 			t1 = space();
 			span = element("span");
-			t2 = text("Submit");
+			t2 = text("Pošlji");
 			this.h();
 		},
 		l(nodes) {
@@ -3245,7 +3245,7 @@ function create_if_block(ctx) {
 			t1 = claim_space(button_nodes);
 			span = claim_element(button_nodes, "SPAN", { class: true });
 			var span_nodes = children(span);
-			t2 = claim_text(span_nodes, "Submit");
+			t2 = claim_text(span_nodes, "Pošlji");
 			span_nodes.forEach(detach);
 			button_nodes.forEach(detach);
 			form_1_nodes.forEach(detach);
